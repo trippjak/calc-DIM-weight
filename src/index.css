@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+  @apply bg-[#D42027] text-white py-2 px-4 rounded-md hover:bg-[#b01b21] transition-colors;
+}
+
+.btn-calculate {
+  @apply bg-[#1B8BC6] text-white py-2 px-4 rounded-md hover:bg-[#1779ac] transition-colors;
+}
